@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestServer", "TestServer.vcproj", "{11A8CEB0-BA51-4938-95E1-CB3149556A7B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E31325DB-3F71-4431-A610-99D25DA84702} = {E31325DB-3F71-4431-A610-99D25DA84702}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WeNetwork", "..\WeNetwork\WeNetwork.vcproj", "{E31325DB-3F71-4431-A610-99D25DA84702}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WeUtility", "..\WeUtility\WeUtility.vcproj", "{C8264590-394E-4078-9A19-C3923F75B41D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11A8CEB0-BA51-4938-95E1-CB3149556A7B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{11A8CEB0-BA51-4938-95E1-CB3149556A7B}.Debug|Win32.Build.0 = Debug|Win32
+		{11A8CEB0-BA51-4938-95E1-CB3149556A7B}.Release|Win32.ActiveCfg = Release|Win32
+		{11A8CEB0-BA51-4938-95E1-CB3149556A7B}.Release|Win32.Build.0 = Release|Win32
+		{E31325DB-3F71-4431-A610-99D25DA84702}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E31325DB-3F71-4431-A610-99D25DA84702}.Debug|Win32.Build.0 = Debug|Win32
+		{E31325DB-3F71-4431-A610-99D25DA84702}.Release|Win32.ActiveCfg = Release|Win32
+		{E31325DB-3F71-4431-A610-99D25DA84702}.Release|Win32.Build.0 = Release|Win32
+		{C8264590-394E-4078-9A19-C3923F75B41D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C8264590-394E-4078-9A19-C3923F75B41D}.Debug|Win32.Build.0 = Debug|Win32
+		{C8264590-394E-4078-9A19-C3923F75B41D}.Release|Win32.ActiveCfg = Release|Win32
+		{C8264590-394E-4078-9A19-C3923F75B41D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+//
+// Prefix header for all source files of the 'newsyc' target in the 'newsyc' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This is probably not going to go well. Might want to try iOS 4.0 or later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <QuartzCore/QuartzCore.h>
+
+#define AUTOROTATION_FOR_PAD_ONLY \
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation { \
+    return (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) || (toInterfaceOrientation == UIInterfaceOrientationPortrait); \
+}
+
+#endif

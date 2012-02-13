@@ -1,0 +1,11 @@
+.DS_Store
+*.[oa]
+.hg.
+svn
+CVS
+.xcodeproj/ !*.xcodeproj/project.pbxproj
+build
+newsyc.xcodeproj/*.mode1v3
+newsyc.xcodeproj/*.pbxuser
+newsyc.xcodeproj/project.xcworkspace/xcuserdata/*
+
